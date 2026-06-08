@@ -112,13 +112,3 @@ const styles = `
   .tl-day-header {
     display: flex; align-items: center; gap: 10px; cursor: pointer;
     padding: 6px 0; user-select: none;
-  }
-  .tl-day-dot {
-    width: 13px; height: 13px; border-radius: 50%; flex-shrink: 0;
-    background: #70c0e8; border: 2px solid #daeef8;
-    box-shadow: 0 0 0 1.5px rgba(80,160,220,0.4);
-    position: relative; z-index: 2;
-  }
-  .tl-day-label { font-family: 'Caveat', cursive; font-size: 1.05rem; color: #3a6888; }
-  .tl-day-count { font-size: 0.72rem; background: rgba(100,180,230,0.15); color: #5a8aaa; padding: 1px 7px; border-radius: 10px; }
-  .tl-day-chevron { margin-left: auto; font-size: 11px; color: #80b8d8;
